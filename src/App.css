@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.App{
+  background: #000000;
+  padding: 15px;
+  margin-top: 25%;
+  width: 300px;
+  box-shadow: 0 0px 7px 0 rgb(255 255 255), 0 0px 3px 0 rgb(255 255 255);
+}
+
+.input{
+  border: solid 1px #ffffff40;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+  text-align: right;
+  font-size: 2rem;
+  background: #000;
+  outline: none;
+}
+
+.row{
+  display: flex;
+    gap: 1rem;
+    margin-top: 12px;
+}
+
+.btn{
+  background: #000000;
+    padding: 24px 16px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    box-shadow: 0 0px 7px 0 rgb(255 255 255), 0 0px 3px 0 rgb(255 255 255);
+}
+
+.equal{
+  background: orange;
+  box-shadow: 0 0px 7px 0 rgb(255 165 0), 0 0px 3px 0 rgb(255 165 0);
+}
